@@ -368,6 +368,7 @@ void assert_failed(uint8_t *file, uint32_t line)
 ## DUTY CYCLE AND FREQUENCY CALCULATION
 FOR PULSE AT 500
 ![Screenshot (154)](https://github.com/user-attachments/assets/eac1932b-2401-42f0-8b6a-fef790aff5ca)
+```
 TON = 3 x 10 x 10^-6 = 0.00003
 TOFF= 3 x 10 x 10^-6 = 0.00003
 TOTAL TIME = TON + TOFF  
@@ -381,9 +382,10 @@ DUTY CYCLE = TON / TON+TOFF
            = 0.5
       IN % = 0.5 x 100
            = 50 %
-          
+```
 FOR PULSE AT 700
 ![Screenshot (155)](https://github.com/user-attachments/assets/0ddca160-4103-40fc-ab3c-e41c90179b28)
+```
 TON = 4 x 10 x 10^-6 = 0.00004
 TOFF= 2 x 10 x 10^-6 = 0.00002
 TOTAL TIME = TON + TOFF  
@@ -397,10 +399,11 @@ DUTY CYCLE = TON / TON+TOFF
            = 0.7
       IN % = 0.7 x 100
            = 70 %
-
+```
 
 FOR PULSE AT 250
 ![Screenshot (156)](https://github.com/user-attachments/assets/7328eb5b-142f-4517-abbb-694f54da4349)
+```
 TON = 1 x 10 x 10^-6 = 0.00001
 TOFF= 2 x 10 x 10^-6 = 0.00002
 TOTAL TIME = TON + TOFF  
@@ -414,7 +417,7 @@ DUTY CYCLE = TON / TON+TOFF
            = 0.3
       IN % = 0.3 x 100
            = 30 % 
-
+```
 ## Result :
 A PWM Signal is generated using the following frequency and various duty cycles are simulated.
 
